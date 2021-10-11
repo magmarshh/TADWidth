@@ -26,11 +26,25 @@ python TADWidth_piechart.py --tad <juicer TAD file> --bins <user-defined bin wid
 
 ## TADWidth_violinplot
 
+### Requirements
+- pandas
+- matplotlib
+- python >=  3.7 
+- seaborn
+- statistics
+
+
 ### Usage
 ```{bash echo=FALSE}
 python TADWidth_violinplot.py --tad <juicer file(s)> --labels <plot label(s)> --figWidth <figure width> --figHeight <figure height> --output <path to violinplot output>
 
 ```
+### Parameters
+- --tad: **REQUIRED** TAD file(s) in juicer format (see [juicer arrowhead documentation](https://github.com/aidenlab/juicer/wiki/Arrowhead) for more information), WITHOUT a header row. If multiple TAD files are to be plotted on the same plot, enter TAD file paths separated by commas. 
+- --labels: **REQUIRED** labels for violin plot(s) corresponding to the order given in the `tad` parameter. If multiple, separate with commas. 
+- --output: **REQUIRED** file path to outputted violin plot in any matplot lib accepted format (see [matplotlib picture formats](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html) for more info)
+- --figWidth: **OPTIONAL** figure width in integer format. Default is 7. 
+- --figHeight: **OPTIONAL** figure height in integer format. Default is 7. 
 
 
 ### Example
