@@ -57,4 +57,5 @@ python TADWidth_piechart.py --tad Examples/test_file1.bedpe --labels test1 --out
 ```
 Output: 
  Mean Log2(width) for  Examples/test_file1.bedpe is:  17.43684815150383
+ 
  Median Log2(width) for  Examples/test_file1.bedpe is:  17.28771237954945
