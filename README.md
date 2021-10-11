@@ -22,6 +22,10 @@ python TADWidth_piechart.py --tad <juicer TAD file> --bins <user-defined bin wid
 
 **NOTE: Either `--bins` or `--res` argument MUST be supplied, if both are supplied then the res argument will take precedence.**
 
+### Example: 
+```{bash echo=FALSE}
+python TADWidth_piechart.py  --loop Examples/test_file1.bedpe --res 10000 --output Examples/piechart_test1.png
+```
 
 
 ## TADWidth_violinplot
@@ -47,7 +51,7 @@ python TADWidth_violinplot.py --tad <juicer file(s)> --labels <plot label(s)> --
 - --figHeight: **OPTIONAL** figure height in integer format. Default is 7. 
 
 
-### Example
+### Example:
 ```{bash echo=FALSE}
 python TADWidth_piechart.py --tad Examples/test_file1.bedpe --labels test1 --output Examples/violin_plot_test1.png
 ```
