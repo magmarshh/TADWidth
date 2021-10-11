@@ -27,7 +27,10 @@ python TADWidth_piechart.py --tad <juicer TAD file> --bins <user-defined bin wid
 ## TADWidth_violinplot
 
 ### Usage
+```{bash echo=FALSE}
+python TADWidth_violinplot.py --tad <juicer file(s)> --labels <plot label(s)> --figWidth <figure width> --figHeight <figure height> --output <path to violinplot output>
 
+```
 
 
 ### Example
