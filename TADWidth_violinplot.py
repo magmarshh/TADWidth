@@ -94,7 +94,7 @@ def main():
         axis_ticks = list(range(1, len(files) + 1))
         # set the x axis ticks
         axes.set_xticks(axis_ticks)
-        axes.set_ylabel('log2(tad Width)')
+        axes.set_ylabel('log2(Tad Width)')
         ax = sns.violinplot(data=combined_data_to_plot, ax=axes, orient='v', inner='box')
         # set the x axis tick labels
         ax.set_xticklabels(labels_split)
